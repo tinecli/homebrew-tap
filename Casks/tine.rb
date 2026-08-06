@@ -7,6 +7,8 @@ cask "tine" do
   desc "Native macOS terminal autocomplete"
   homepage "https://github.com/tinecli/tine"
 
+  depends_on arch: :arm64
+
   app "Tine.app"
 
   caveats <<~EOS
