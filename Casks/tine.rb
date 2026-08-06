@@ -4,10 +4,11 @@ cask "tine" do
 
   url "https://github.com/tinecli/tine/releases/download/v#{version}/Tine-#{version}.dmg"
   name "Tine"
-  desc "Native macOS terminal autocomplete"
+  desc "Native terminal autocomplete"
   homepage "https://github.com/tinecli/tine"
 
   depends_on arch: :arm64
+  depends_on macos: ">= :sonoma"
 
   app "Tine.app"
 
