@@ -7,6 +7,8 @@ cask "tine" do
   desc "Native terminal autocomplete"
   homepage "https://github.com/tinecli/tine"
 
+  auto_updates true
+
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
