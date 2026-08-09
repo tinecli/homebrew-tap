@@ -8,7 +8,7 @@ cask "tine" do
   homepage "https://github.com/tinecli/tine"
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
 
   app "Tine.app"
 
