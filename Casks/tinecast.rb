@@ -1,9 +1,9 @@
 cask "tinecast" do
-  version "0.1.8"
-  sha256 "bce1e8c42330c960d0caf702198468a52c0731b0536b1b1880e3369e39944674"
+  version "0.1.9"
+  sha256 "a2e4562f5eb7c18b33a32dfe608f8ad94ea17a5e6bbab2a7e1920da620891467"
 
   url "https://github.com/tinecli/tinecast/releases/download/v#{version}/tinecast-#{version}.dmg"
-  name "Tinecast"
+  name "TineCast"
   desc "Minimal native launcher"
   homepage "https://github.com/tinecli/tinecast"
 
@@ -11,5 +11,5 @@ cask "tinecast" do
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
-  app "Tinecast.app"
+  app "TineCast.app"
 end
