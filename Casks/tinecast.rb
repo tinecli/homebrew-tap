@@ -1,6 +1,6 @@
 cask "tinecast" do
-  version "0.1.12"
-  sha256 "1a0bb912e3a1117f6526c30608b007a8a8dbb3ee32a980ed728a93b8d57e457b"
+  version "0.1.13"
+  sha256 "e1b9b78c47f9c8e56397286bbd5f8afd6185aad799bd8178b9e63f07b8386a4c"
 
   url "https://github.com/tinecli/tinecast/releases/download/v#{version}/tinecast-#{version}.dmg"
   name "TineCast"
