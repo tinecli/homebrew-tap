@@ -5,11 +5,14 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   casks:
     runs-on: macos-26
     steps:
-      - uses: Homebrew/actions/setup-homebrew@main
+      - uses: Homebrew/actions/setup-homebrew@63a2d4d8d4193eab3e62b1b782ff3ab8408f5b29 # main
       - run: brew trust tinecli/tap
       - run: brew style tinecli/tap
       - run: brew audit --cask --strict --online --tap tinecli/tap
